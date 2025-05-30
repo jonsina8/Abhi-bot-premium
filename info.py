@@ -50,8 +50,8 @@ SUPPORT_CHAT_ID = int(support_chat_id) if support_chat_id and id_pattern.search(
 NO_RESULTS_MSG = bool(environ.get("NO_RESULTS_MSG", False))
 
 # MongoDB information
-DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://Thunder2:khan7860@cluster0.u85aqco.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
-DATABASE_URI2 = environ.get('DATABASE_URI2', "mongodb+srv://Thunder1:khan7860@cluster0.mfbyaqs.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://nk3442838:O7WYTvufEdtDKSqC@cluster0.6krhy.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+DATABASE_URI2 = environ.get('DATABASE_URI2', "mongodb+srv://aka528140:hG20SAJq3iBoeq9l@cluster0.cuci0yg.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
 DATABASE_NAME = environ.get('DATABASE_NAME', "Abhi12")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 
@@ -69,7 +69,7 @@ CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/Hindi_movie_uplod')
 TUTORIAL = environ.get('TUTORIAL', 'https://t.me/Hindi_movie_uplod/36')
 IS_TUTORIAL = bool(environ.get('IS_TUTORIAL', True))
 MSG_ALRT = environ.get('MSG_ALRT', 'ᴍᴀɪɴᴛᴀɪɴᴇᴅ ʙʏ : Abhikumar7799')
-LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1002592134690'))
+LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1002552925944'))
 SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'Your_Movie_Link_8')
 P_TTI_SHOW_OFF = is_enabled((environ.get('P_TTI_SHOW_OFF', "False")), False)
 IMDB = is_enabled((environ.get('IMDB', "False")), False)
