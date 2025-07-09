@@ -31,7 +31,7 @@ CODE = (environ.get('CODE', 'https://t.me/+GK5SsPo9cWVjMzI1'))
 #stream link shortner
 STREAM_SITE = (environ.get('STREAM_SITE', 'arlinks.in'))
 STREAM_API = (environ.get('STREAM_API', 'c8deaa7cb811330e142c77d4050754c9cda60dfa'))
-STREAMHTO = (environ.get('STREAMHTO', 'https://t.me/Hindi_movie_uplod'))
+STREAMHTO = (environ.get('STREAMHTO', 'https://t.me/+GK5SsPo9cWVjMzI1'))
 
 # Admins, Channels & Users
 ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '7436687322').split()]
